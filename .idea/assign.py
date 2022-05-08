@@ -77,6 +77,11 @@ S = int(S)
 R2 = 2 * S - R1
 print(R2)
 
+#2163
+N, M = map(int, input().split())
+if N>=1 and M <= 300
+    print(N-1 + (M-1)*N)
+
 # 11021
 T = int(input())
 for i in range(1, T + 1):
@@ -88,5 +93,3 @@ T = int(input())
 for i in range(1, T + 1):
     A, B = map(int, input().split())
     print(f"Case #{i}: {A} + {B} = {A + B}")
-
-#2163
